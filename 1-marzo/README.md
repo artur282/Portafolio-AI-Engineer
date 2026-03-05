@@ -1,57 +1,16 @@
-# 🏗️ Marzo — Backend Foundations
+# 🧪 Marzo 2026 — Prompt Engineering & LLM Foundations
 
-> _"Todo gran sistema empieza con una API bien diseñada."_
+Mes dedicado a dominar la ingeniería de prompts sistemática y versionada.
 
-## 🎯 Objetivo del mes
+## Proyecto del mes
 
-Establecer las bases sólidas de ingeniería backend construyendo APIs profesionales, sistemas de autenticación robustos, herramientas de scraping inteligente y utilidades CLI. Cada proyecto demuestra buenas prácticas de desarrollo: código limpio, tests, documentación y Docker.
+| Proyecto                               | Estado         | Repositorio                                                 |
+| -------------------------------------- | -------------- | ----------------------------------------------------------- |
+| **[PromptLab](./mes-01-promptlab.md)** | 🔄 En progreso | [artur282/PromptLab](https://github.com/artur282/PromptLab) |
 
----
+## Competencias trabajadas
 
-## 📅 Proyectos del mes
-
-| Semana | Fechas    | Proyecto                                    | Estado       |
-| ------ | --------- | ------------------------------------------- | ------------ |
-| 01     | 7-8 Mar   | [TaskFlow API](./semana-01-taskflow-api.md) | ⬜ Pendiente |
-| 02     | 14-15 Mar | [AuthGuard](./semana-02-authguard.md)       | ⬜ Pendiente |
-| 03     | 21-22 Mar | [DataHarvest](./semana-03-dataharvest.md)   | ⬜ Pendiente |
-| 04     | 28-29 Mar | [DevCLI](./semana-04-devcli.md)             | ⬜ Pendiente |
-
----
-
-## 🧠 Habilidades que se desarrollan
-
-- Diseño de APIs RESTful con FastAPI y Django
-- Autenticación y autorización (JWT, roles, permisos)
-- Web scraping responsable y procesamiento de datos
-- Desarrollo de herramientas CLI profesionales
-- Containerización con Docker
-- Testing con pytest
-- Documentación de APIs (OpenAPI/Swagger)
-
----
-
-## 🔗 Cómo se conectan los proyectos
-
-```
-Semana 01: TaskFlow API
-    │  Aprende: FastAPI, PostgreSQL, Docker, CRUD, tests
-    ▼
-Semana 02: AuthGuard
-    │  Aprende: Django, DRF, JWT, roles → reutilizable en futuros proyectos
-    ▼
-Semana 03: DataHarvest
-    │  Aprende: Selenium, Pandas, scraping → base para proyectos de datos
-    ▼
-Semana 04: DevCLI
-       Aprende: Typer, Rich, empaquetado → herramientas propias
-```
-
----
-
-## 📊 Progreso
-
-- [ ] Semana 01 — TaskFlow API
-- [ ] Semana 02 — AuthGuard
-- [ ] Semana 03 — DataHarvest
-- [ ] Semana 04 — DevCLI
+- Prompt engineering: system prompts, few-shot, chain-of-thought, templates parametrizadas
+- Versionado semántico de prompts con changelog y diffs
+- Evaluación comparativa: OpenAI vs Anthropic vs Llama con métricas
+- Observabilidad con Langfuse: coste, latencia, calidad por versión

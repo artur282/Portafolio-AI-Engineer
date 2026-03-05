@@ -1,12 +1,13 @@
-# 🚀 Portafolio de Ingeniería de Software — Marzo a Agosto 2026
+# 🤖 Portafolio de AI Engineer — Marzo a Agosto 2026
 
-> **26 proyectos. 26 fines de semana. Un portafolio que habla por sí solo.**
+> **6 proyectos. 6 meses. Un portafolio enfocado en AI Solutions Engineering.**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Duración-6_meses-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Proyectos-26-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Ritmo-1_por_semana-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Stack-Python_|_Rust_|_IA_|_Mobile_|_DevOps-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Proyectos-6-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Ritmo-1_por_mes-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Stack-LangChain_|_RAG_|_Agents_|_LLMs_|_Eval-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Target-Junior_AI_Solutions_Engineer-red?style=for-the-badge"/>
 </p>
 
 ---
@@ -14,143 +15,219 @@
 ## 📋 Tabla de contenidos
 
 - [🎯 Objetivo](#-objetivo)
+- [💼 Propuesta laboral objetivo](#-propuesta-laboral-objetivo)
 - [🗺️ Roadmap visual](#️-roadmap-visual)
 - [📅 Plan mensual](#-plan-mensual)
 - [🛠️ Stack tecnológico](#️-stack-tecnológico)
 - [📐 Metodología](#-metodología)
+- [🔗 Competencias demostradas](#-competencias-demostradas)
 - [📊 Progreso](#-progreso)
 
 ---
 
 ## 🎯 Objetivo
 
-Construir un portafolio progresivo que demuestre dominio completo en **ingeniería backend, IA/GenAI, ingeniería de datos, DevOps e integración full-stack**. Cada proyecto es independiente, funcional y desplegable — diseñado para resolver problemas reales, no solo ejercicios académicos.
+Construir un portafolio progresivo y especializado que demuestre dominio completo de las competencias requeridas para el puesto de **Junior AI Solutions Engineer**, con énfasis en:
+
+- 🤖 Desarrollo de **agentes y asistentes con LLMs** (OpenAI, Anthropic, Meta Llama)
+- 📚 Sistemas **RAG** (Retrieval Augmented Generation) con vector stores
+- 🧪 **Ingeniería de prompts** sistemática, versionada y medible
+- 📊 **Evaluación y observabilidad** de agentes IA (métricas, harness, A/B testing)
+- 🔒 **Seguridad y privacidad** (PII, GDPR, guardrails, red-teaming)
+- ☁️ **MLOps e infraestructura** (Docker, CI/CD, Azure, LangSmith/Langfuse)
+
+Cada proyecto es **independiente, funcional y desplegable** — diseñado para resolver problemas reales de negocio, no solo ejercicios académicos.
 
 ### Principios del portafolio
 
-| Principio                 | Descripción                                                                        |
-| ------------------------- | ---------------------------------------------------------------------------------- |
-| 🏗️ **Producción primero** | Cada proyecto está diseñado como si fuera a producción: tests, docs, Docker, CI/CD |
-| 📈 **Progresión**         | La complejidad aumenta mes a mes, construyendo sobre habilidades previas           |
-| 🔗 **Integración**        | Los proyectos finales combinan múltiples habilidades en soluciones completas       |
-| 📖 **Documentación**      | Cada proyecto incluye README detallado, diagramas y decisiones de arquitectura     |
-| 🧪 **Testing**            | Cobertura de tests como estándar, no como opción                                   |
+| Principio                    | Descripción                                                                             |
+| ---------------------------- | --------------------------------------------------------------------------------------- |
+| 🏭 **Impacto de negocio**    | Cada proyecto ataca un caso de uso empresarial real con KPIs medibles                   |
+| 📈 **Progresión vertical**   | La complejidad aumenta: de prompts básicos → agentes → sistemas de evaluación completos |
+| 🔗 **Competencias mapeadas** | Cada proyecto mapea directamente a requisitos de la oferta laboral objetivo             |
+| 📖 **Documentación**         | Playbooks, ADRs, diagramas de arquitectura y decisiones técnicas documentadas           |
+| 🧪 **Evaluación rigurosa**   | Métricas de calidad, coste, latencia y seguridad en cada proyecto de IA                 |
+
+---
+
+## 💼 Propuesta laboral objetivo
+
+**Puesto:** Junior AI Solutions Engineer — Emais ([Tailor Platform](https://www.emais.es/tailor/))
+
+**Sector:** Bancario e Inmobiliario | **Modalidad:** 100% Remoto
+
+### Requisitos cubiertos por este portafolio
+
+| Requisito                                      | Proyecto(s) que lo cubre |
+| ---------------------------------------------- | ------------------------ |
+| LLMs (OpenAI, Anthropic, Llama)                | Todos los proyectos      |
+| Prompt Engineering y versionado                | Mes 1 — PromptLab        |
+| RAG (embeddings, chunking, vector DB)          | Mes 2 — DocuRAG          |
+| Python scripting + APIs                        | Todos los proyectos      |
+| Evaluación y métricas (RAGAS, LangSmith)       | Mes 3 — EvalForge        |
+| Agentes multi-paso y function calling          | Mes 4 — AgentFlow        |
+| Observabilidad (Langfuse, trazas)              | Mes 3 — EvalForge        |
+| Seguridad y privacidad (PII, GDPR, guardrails) | Mes 5 — GuardAI          |
+| MLOps, CI/CD, Docker, Azure                    | Mes 5 + Mes 6            |
+| LangChain / LlamaIndex                         | Mes 2, 3, 4              |
 
 ---
 
 ## 🗺️ Roadmap visual
 
 ```
-MAR ──────── ABR ──────── MAY ──────── JUN ──────── JUL ──────── AGO
-  │            │            │            │            │            │
-  ▼            ▼            ▼            ▼            ▼            ▼
-🏗️ Backend   🤖 IA/ML    📊 Datos    ☁️ DevOps   🔗 Full     🏆 Capstone
-Foundations  & GenAI     & Automat.  & Cloud     Stack       Projects
-  │            │            │            │            │            │
-  ├─ TaskFlow  ├─ ConversAI ├─ DataBridg ├─ ShipIt    ├─ ProjectH  ├─ AutomateAI
-  ├─ AuthGuard ├─ MCPForge  ├─ PriceWat  ├─ AxumMicro ├─ LiveDash  ├─ APIMarket
-  ├─ DataHarv  ├─ DocuMind  ├─ FlowEng   ├─ GateKeep  ├─ SnapTask📱├─ PortfolioOS
-  └─ RustCLI🦀 └─ SentiSco  ├─ InsightAP ├─ CloudDep  └─ NotifyH   ├─ OpenContrib
-                             └─ LogStream                           └─ Retrospect.
+MAR ──────────── ABR ──────────── MAY ──────────── JUN ──────────── JUL ──────────── AGO
+  │                │                │                │                │                │
+  ▼                ▼                ▼                ▼                ▼                ▼
+🧪 Prompt       📚 RAG &         📊 Eval &        🤖 Agentes       🔒 Seguridad &   🏆 Capstone
+Engineering     Búsqueda         Observab.        Multi-paso       Guardrails       AI Platform
+  │                │                │                │                │                │
+  └─ PromptLab    └─ DocuRAG       └─ EvalForge    └─ AgentFlow    └─ GuardAI       └─ TailorAI
+     Sistema de      Pipeline        Framework de    Agente          Sistema de         Plataforma
+     prompts         RAG prod.       evaluación      Empresarial     guardrails         AI completa
+     versionados     completo        y observab.     con tools       y red-teaming      end-to-end
 ```
 
 ---
 
 ## 📅 Plan mensual
 
-### [🏗️ Marzo — Backend Foundations](./1-marzo/)
+### [🧪 Marzo — Prompt Engineering & LLM Foundations](./1-marzo/)
 
-> _Sentar las bases con APIs robustas, autenticación, scraping y herramientas CLI_
+> _Dominar la ingeniería de prompts sistemática, versionada y evaluable para múltiples proveedores LLM_
 
-| Semana | Proyecto                                                                                               | Tecnologías clave            | Descripción                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------ | ---------------------------- | ------------------------------------------------------------- |
-| 01     | **[TaskFlow API](./1-marzo/semana-01-taskflow-api.md)**                                                | FastAPI, PostgreSQL, Docker  | API REST completa con CRUD, filtros, paginación y tests ✅    |
-| 02     | **[AuthGuard](./1-marzo/semana-02-authguard.md)**                                                      | Django, DRF, JWT             | Sistema de autenticación con roles, permisos y refresh tokens ✅ |
-| 03     | **[DataHarvest](./1-marzo/semana-03-dataharvest.md)**                                                  | Selenium, Pandas, PostgreSQL | Web scraper inteligente con extracción y análisis de datos    |
-| 04     | **[RustCLI (DashTUI)](./1-marzo/semana-04-rustcli.md)**                                                | Rust, Clap, Ratatui          | TUI interactivo y CLI todo-en-uno de alto rendimiento 🦀✅    |
+| Proyecto                                       | Tecnologías clave                                     | Descripción                                                                          | Competencia objetivo               |
+| ---------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------- |
+| **[PromptLab](./1-marzo/mes-01-promptlab.md)** | OpenAI API, Anthropic API, LangChain, MLflow/Langfuse | Sistema de catálogo y versionado de prompts con evaluación comparativa entre modelos | Prompt Engineering + LLM selection |
 
----
+**Lo que demuestra:**
 
-### [🤖 Abril — IA/ML & GenAI](./2-abril/)
-
-> _Integrar inteligencia artificial en aplicaciones prácticas y productivas_
-
-| Semana | Proyecto                                            | Tecnologías clave          | Descripción                                                         |
-| ------ | --------------------------------------------------- | -------------------------- | ------------------------------------------------------------------- |
-| 05     | **[ConversAI](./2-abril/semana-05-conversai.md)**   | LangChain, FastAPI, OpenAI | Chatbot conversacional con memoria y contexto                       |
-| 06     | **[MCPForge](./2-abril/semana-06-mcpforge.md)**     | MCP SDK, Python, Docker    | Servidor MCP personalizado que expone herramientas como servicio    |
-| 07     | **[DocuMind](./2-abril/semana-07-documind.md)**     | RAG, Vector DBs, LangChain | Pipeline de Q&A sobre documentos con retrieval augmented generation |
-| 08     | **[SentiScope](./2-abril/semana-08-sentiscope.md)** | NLP, FastAPI, Pandas       | API de análisis de sentimiento y extracción de entidades            |
+- Prompts sistémicos, plantillas parametrizadas, few-shot, chain-of-thought
+- Versionado con nomenclatura, changelogs y diffs
+- Comparativa de proveedores (GPT-4o vs Claude vs Llama) con métricas
 
 ---
 
-### [📊 Mayo — Data Engineering & Automation](./3-mayo/)
+### [📚 Abril — RAG & Knowledge Retrieval](./2-abril/)
 
-> _Dominar pipelines de datos, ETL, monitoreo y automatización empresarial_
+> _Construir un pipeline RAG de producción con chunking avanzado, múltiples vector stores y evaluación de retrieval_
 
-| Semana | Proyecto                                           | Tecnologías clave           | Descripción                                                  |
-| ------ | -------------------------------------------------- | --------------------------- | ------------------------------------------------------------ |
-| 09     | **[DataBridge](./3-mayo/semana-09-databridge.md)** | Python, PostgreSQL, SQLite  | Pipeline ETL completo con validación, transformación y carga |
-| 10     | **[PriceWatch](./3-mayo/semana-10-pricewatch.md)** | Selenium, Pandas, SQLite    | Sistema de monitoreo de precios con scraping y alertas       |
-| 11     | **[FlowEngine](./3-mayo/semana-11-flowengine.md)** | n8n, Webhooks, APIs         | Automatización de flujos empresariales con n8n               |
-| 12     | **[InsightAPI](./3-mayo/semana-12-insightapi.md)** | FastAPI, Pandas, Plotly     | API de reportes dinámicos con visualizaciones                |
-| 13     | **[LogStream](./3-mayo/semana-13-logstream.md)**   | Python, PostgreSQL, FastAPI | Sistema de ingestión y análisis de logs                      |
+| Proyecto                                   | Tecnologías clave                                             | Descripción                                                                                                     | Competencia objetivo          |
+| ------------------------------------------ | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **[DocuRAG](./2-abril/mes-02-docurag.md)** | LangChain, Chroma/pgvector, OpenAI Embeddings, RAGAS, FastAPI | Pipeline RAG completo sobre documentos empresariales con chunking estratégico, reranking y evaluación con RAGAS | RAG + Vector DBs + Embeddings |
 
----
+**Lo que demuestra:**
 
-### [☁️ Junio — DevOps & Cloud](./4-junio/)
-
-> _Infraestructura, CI/CD, containerización y despliegue en la nube_
-
-| Semana | Proyecto                                              | Tecnologías clave            | Descripción                                           |
-| ------ | ----------------------------------------------------- | ---------------------------- | ----------------------------------------------------- |
-| 14     | **[ShipIt](./4-junio/semana-14-shipit.md)**           | GitHub Actions, Docker, AWS  | Pipeline CI/CD completo con deploy automático         |
-| 15     | **[AxumMicro](./4-junio/semana-15-axummicro.md)**     | Axum, SQLx, Serde, Docker    | Microservicio ultraligero con Distroless (20-30MB)    |
-| 16     | **[GateKeeper](./4-junio/semana-16-gatekeeper.md)**   | Python, Redis, JWT           | API Gateway con rate limiting, caché y auth           |
-| 17     | **[CloudDeploy](./4-junio/semana-17-clouddeploy.md)** | AWS Lambda, API Gateway, IaC | Despliegue serverless con infraestructura como código |
+- Chunking strategies (recursive, semantic, hierarchical)
+- Vector store selection y configuración (Chroma → pgvector en producción)
+- Evaluación de retrieval: Precision@K, Recall@K, MRR, faithfulness, answer relevancy
 
 ---
 
-### [🔗 Julio — Full-Stack Integration](./5-julio/)
+### [📊 Mayo — Evaluación & Observabilidad](./3-mayo/)
 
-> _Proyectos full-stack que combinan frontend y backend en experiencias completas_
+> _Diseñar un harness de evaluación completo con observabilidad en tiempo real para agentes IA_
 
-| Semana | Proyecto                                            | Tecnologías clave           | Descripción                                           |
-| ------ | --------------------------------------------------- | --------------------------- | ----------------------------------------------------- |
-| 18     | **[ProjectHub](./5-julio/semana-18-projecthub.md)** | React, FastAPI, PostgreSQL  | App de gestión de proyectos full-stack                |
-| 19     | **[LiveDash](./5-julio/semana-19-livedash.md)**     | WebSockets, React, Charts   | Dashboard en tiempo real con gráficos interactivos    |
-| 20     | **[SnapTask](./5-julio/semana-20-snaptask.md)**     | React Native, Expo, FastAPI | App móvil de gestión de tareas con sync en la nube 📱 |
-| 21     | **[NotifyHub](./5-julio/semana-21-notifyhub.md)**   | FastAPI, Celery, React      | Sistema de notificaciones multi-canal                 |
+| Proyecto                                      | Tecnologías clave                                    | Descripción                                                                                              | Competencia objetivo                      |
+| --------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| **[EvalForge](./3-mayo/mes-03-evalforge.md)** | Langfuse, RAGAS, LangSmith, Python, FastAPI, Grafana | Framework de evaluación y observabilidad con paneles de calidad, coste, latencia y tasa de alucinaciones | Evaluación + Observabilidad + A/B Testing |
+
+**Lo que demuestra:**
+
+- Diseño de datasets de evaluación (golden sets, synthetic data)
+- Panel de métricas: calidad, coste/interacción, latencia, task success rate, hallucination rate
+- A/B testing estadístico de prompts y modelos
+- LLM-as-judge patterns
 
 ---
 
-### [🏆 Agosto — Capstone Projects](./6-agosto/)
+### [🤖 Junio — Multi-Step Agents & Workflows](./4-junio/)
 
-> _Proyectos integradores que demuestran dominio completo del stack_
+> _Desarrollar un agente empresarial multi-paso con function calling, memoria persistente y control de flujo_
 
-| Semana | Proyecto                                                   | Tecnologías clave              | Descripción                                          |
-| ------ | ---------------------------------------------------------- | ------------------------------ | ---------------------------------------------------- |
-| 22     | **[AutomateAI](./6-agosto/semana-22-automateai.md)**       | FastAPI, LangChain, Vector DBs | Plataforma de automatización potenciada por IA       |
-| 23     | **[APIMarket](./6-agosto/semana-23-apimarket.md)**         | FastAPI, React, Docker         | Agregador de APIs con documentación automática       |
-| 24     | **[PortfolioOS](./6-agosto/semana-24-portfolioos.md)**     | React, TailwindCSS, Vercel     | Portfolio personal interactivo y moderno             |
-| 25     | **[OpenContrib](./6-agosto/semana-25-opencontrib.md)**     | Git, GitHub, Open Source       | Contribución documentada a proyecto open source      |
-| 26     | **[Retrospectiva](./6-agosto/semana-26-retrospectiva.md)** | Markdown, Mermaid, Docs        | Documentación final, métricas y lecciones aprendidas |
+| Proyecto                                       | Tecnologías clave                                                         | Descripción                                                                                                              | Competencia objetivo                   |
+| ---------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
+| **[AgentFlow](./4-junio/mes-04-agentflow.md)** | LangChain Agents, OpenAI Function Calling, LangGraph, FastAPI, PostgreSQL | Agente empresarial con herramientas conectadas a APIs reales, memoria persistente y orquestación de workflows multi-paso | Agentes + Function Calling + Workflows |
+
+**Lo que demuestra:**
+
+- Tool use y function calling (APIs externas, DBs, servicios)
+- ReAct, Plan-and-Execute, y patrones de orquestación
+- Memoria episódica y semántica con vector store
+- Logging de pasos, métricas de task success y gestión de errores
+
+---
+
+### [🔒 Julio — Security, Privacy & Guardrails](./5-julio/)
+
+> _Implementar un sistema completo de guardrails, detección de PII y cumplimiento GDPR para aplicaciones LLM_
+
+| Proyecto                                   | Tecnologías clave                                                        | Descripción                                                                                                                                  | Competencia objetivo         |
+| ------------------------------------------ | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| **[GuardAI](./5-julio/mes-05-guardai.md)** | Presidio (Microsoft), NeMo Guardrails, Python, FastAPI, OWASP LLM Top 10 | Capa de seguridad para LLMs: detección/anonimización de PII, prompt injection detection, content moderation, red-teaming y cumplimiento GDPR | Seguridad + PII + Guardrails |
+
+**Lo que demuestra:**
+
+- Detección y anonimización de PII/PHI (Microsoft Presidio)
+- Prompt hardening e injection prevention
+- Auditoría OWASP LLM Top 10
+- Red-teaming automatizado y generación de datos adversariales
+- Documentación de cumplimiento GDPR
+
+---
+
+### [🏆 Agosto — Capstone: TailorAI Platform](./6-agosto/)
+
+> _Proyecto integrador que combina todos los componentes anteriores en una plataforma AI end-to-end lista para producción_
+
+| Proyecto                                      | Tecnologías clave                                                            | Descripción                                                                                                    | Competencia objetivo      |
+| --------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| **[TailorAI](./6-agosto/mes-06-tailorai.md)** | FastAPI, LangGraph, Langfuse, Chroma/pgvector, Azure, Docker, GitHub Actions | Plataforma IA empresarial completa: agente con RAG + guardrails + observabilidad + CI/CD + deployment en Azure | Full Stack AI Engineering |
+
+**Lo que demuestra:**
+
+- Arquitectura completa: API Gateway → Agente → RAG → Guardrails → Observabilidad
+- Infraestructura como código (Docker Compose, Azure)
+- CI/CD con evaluación automática en cada PR
+- Playbooks de uso, documentación técnica y guías de enablement
 
 ---
 
 ## 🛠️ Stack tecnológico
 
 ```
-Backend          IA/ML & GenAI       Datos & Automation    DevOps & Cloud      Frontend & Mobile
-─────────        ──────────────      ──────────────────    ──────────────      ─────────────────
-Python 3.11+     LangChain           PostgreSQL            Docker              React
-FastAPI          MCP SDK             Pandas                GitHub Actions      React Native 📱
-Django/DRF       OpenAI API          SQLite                AWS Lambda          TypeScript
-Rust 🦀          Prompt Eng.         n8n                   Linux/Bash          TailwindCSS
-Node.js/Express  Embeddings          Selenium              Git                 Expo
-                 Vector DBs (Pinecone,
-                 Chroma, pgvector)
+LLM Providers        Frameworks              Evaluación & Obs.    Infraestructura
+─────────────        ──────────              ─────────────────     ───────────────
+OpenAI (GPT-4o)      LangChain               Langfuse              Docker
+Anthropic (Claude)   LangGraph               LangSmith             GitHub Actions
+Meta (Llama)         LlamaIndex              RAGAS                 Azure Cloud
+                     FastAPI                 DeepEval              pgvector
+
+Vector Stores        Seguridad               Prompt Mgmt.          Data
+─────────────        ─────────               ────────────          ────
+Chroma               MS Presidio (PII)       MLflow                PostgreSQL
+FAISS                NeMo Guardrails         Langfuse (prompts)    Pandas
+pgvector             OWASP LLM Top 10        Versioned templates   SQLite
+Pinecone             Prompt hardening        Golden datasets       Synthetic data
 ```
+
+---
+
+## 🔗 Competencias demostradas
+
+### Mapa de competencias vs oferta laboral
+
+| Responsabilidad (Oferta)               | Demostrado en        |
+| -------------------------------------- | -------------------- |
+| Ingeniería de prompts sistémica        | Mes 1 — PromptLab    |
+| RAG (embeddings, indexación, chunking) | Mes 2 — DocuRAG      |
+| Evaluación offline + A/B testing       | Mes 3 — EvalForge    |
+| Agentes multi-paso y function calling  | Mes 4 — AgentFlow    |
+| PII, GDPR, guardrails, red-teaming     | Mes 5 — GuardAI      |
+| Arquitectura completa + MLOps          | Mes 6 — TailorAI     |
+| Observabilidad (trazas, métricas)      | Mes 3 + Mes 6        |
+| Selección de proveedor IA              | Mes 1 (benchmarking) |
+| Documentación y playbooks              | Todos los proyectos  |
 
 ---
 
@@ -162,51 +239,55 @@ Cada proyecto sigue la misma estructura para mantener consistencia y calidad:
 
 ```
 proyecto/
-├── README.md              # Documentación completa
-├── docs/                  # Diagramas y ADRs
-│   ├── architecture.md
-│   └── decisions/
+├── README.md              # Documentación completa + caso de uso empresarial
+├── docs/
+│   ├── architecture.md    # Diagrama de arquitectura
+│   ├── decisions/         # ADRs (Architecture Decision Records)
+│   └── playbook.md        # Guía de uso operacional
 ├── src/                   # Código fuente
-├── tests/                 # Tests automatizados
+├── prompts/               # Catálogo de prompts versionados
+├── evals/                 # Datasets de evaluación y scripts
+├── tests/                 # Tests unitarios e integración
 ├── docker-compose.yml     # Infraestructura local
-├── Makefile               # Comandos comunes
+├── Makefile               # make run, make eval, make test, make deploy
 ├── .github/
-│   └── workflows/         # CI/CD
-└── .env.example           # Variables de entorno
+│   └── workflows/         # CI/CD con evaluación automática
+└── .env.example
 ```
 
-### Definición de "hecho" (DoD)
+### Definición de "hecho" (DoD) — AI Edition
 
-- [ ] Código funcional y testeado
-- [ ] README con descripción, setup y uso
-- [ ] Docker para ejecución local
-- [ ] Tests con cobertura mínima de 80%
-- [ ] Código limpio (linting + formatting)
-- [ ] Al menos un diagrama de arquitectura
-- [ ] Deploy o instrucciones de despliegue
+- [ ] Agente/sistema funcional con caso de uso real demostrable
+- [ ] Métricas de evaluación documentadas (calidad, coste, latencia)
+- [ ] Prompts versionados en catálogo con changelog
+- [ ] Tests con cobertura ≥ 80% + evaluaciones offline
+- [ ] Observabilidad: trazas y dashboards configurados
+- [ ] Docker para ejecución reproducible
+- [ ] Playbook de uso + decisiones de arquitectura
+- [ ] README con contexto de negocio, arquitectura y learnings
 
-### Flujo de trabajo semanal
+### Flujo de trabajo mensual
 
 ```
-Sábado mañana     → Diseño y arquitectura (1-2h)
-Sábado tarde      → Implementación core (4-5h)
-Domingo mañana    → Tests y documentación (2-3h)
-Domingo tarde     → Polish, deploy y README (2-3h)
+Semana 1  → Investigación: caso de uso, arquitectura, selección de stack
+Semana 2  → Implementación core (pipeline principal + prompts)
+Semana 3  → Evaluación: golden sets, métricas, observabilidad
+Semana 4  → Polish: guardrails, CI/CD, playbook, README final + demo
 ```
 
 ---
 
 ## 📊 Progreso
 
-| Mes       | Proyectos | Completados | Estado         |
-| --------- | --------- | ----------- | -------------- |
-| 🏗️ Marzo  | 4         | 3/4         | 🔄 En progreso |
-| 🤖 Abril  | 4         | 0/4         | ⬜ Pendiente   |
-| 📊 Mayo   | 5         | 0/5         | ⬜ Pendiente   |
-| ☁️ Junio  | 4         | 0/4         | ⬜ Pendiente   |
-| 🔗 Julio  | 4         | 0/4         | ⬜ Pendiente   |
-| 🏆 Agosto | 5         | 0/5         | ⬜ Pendiente   |
-| **Total** | **26**    | **3/26**    | **11%**        |
+| Mes       | Proyecto  | Estado         | Competencia Principal       |
+| --------- | --------- | -------------- | --------------------------- |
+| 🧪 Marzo  | PromptLab | 🔄 En progreso | Prompt Engineering          |
+| 📚 Abril  | DocuRAG   | ⬜ Pendiente   | RAG & Vector DBs            |
+| 📊 Mayo   | EvalForge | ⬜ Pendiente   | Evaluación & Observabilidad |
+| 🤖 Junio  | AgentFlow | ⬜ Pendiente   | Agentes Multi-paso          |
+| 🔒 Julio  | GuardAI   | ⬜ Pendiente   | Seguridad & Guardrails      |
+| 🏆 Agosto | TailorAI  | ⬜ Pendiente   | Capstone Full Stack AI      |
+| **Total** | **6**     | **1/6**        | **17%**                     |
 
 ---
 
@@ -217,5 +298,5 @@ Cada proyecto individual tiene su propia licencia. El plan general y la document
 ---
 
 <p align="center">
-  <i>"El mejor momento para empezar fue ayer. El segundo mejor momento es este fin de semana."</i>
+  <i>"No basta con usar IA — hay que saber medirla, asegurarla y mejorarla continuamente."</i>
 </p>
